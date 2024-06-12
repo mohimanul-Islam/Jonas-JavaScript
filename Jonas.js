@@ -101,8 +101,8 @@ console.log(myFirstJob);
 // console.log(emonNew);
 
 // console.log(`My name is Emon`);
-// console.log(`string with 
-//     mltiple 
+// console.log(`string with
+//     mltiple
 //     line`);
 
 // const age = 15;
@@ -139,4 +139,48 @@ console.log(myFirstJob);
 // }else{
 //     console.log(`John's BMI ${BMIJohn} is higher than Mark's ${BMIMark} !`);
 // }
+//type convertion
+// const year ='1990';
+// console.log(Number(year),year);
+// console.log(year+10);
+// //type coercion
+// console.log('I am '+ 23 +' years old');
+
+// let n ='1'+1;
+// n=n-1;
+// console.log(n);
+
+// let money = 8;
+// if (money) {
+//   console.log(`Don't Spend it all`);
+// } else {
+//   console.log(`You should get a job`);
+// }
+
+// let height = 25;
+// if (height) {
+//   console.log(`Height is defined`);
+// } else {
+//   console.log(`Height is not defined`);
+// }
+
+// const age = '18';
+// if(age===18)console.log(`you become an adult`);
+
+// if(age==18)console.log(`you become an adult (loose)`);
+
+// const favorite = Number(prompt("What's your favorite number?"));
+// console.log(favorite);
+// console.log(typeof favorite);
+// if(favorite===23){
+//     console.log("cool 23 is amazing number");
+// }else if(favorite===7){
+//     console.log('no 7 is cool number');
+// }else if(favorite===9){
+//     console.log('no 9 is cool number');
+// }else{
+//     console.log("not no 7, 9 or 23");
+// }
+
+// if(favorite !== 23)console.log('Why not 23?');
 
