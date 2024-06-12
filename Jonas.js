@@ -226,5 +226,43 @@ console.log(myFirstJob);
 //     console.log("no one wins the trofhy");
 // }
 
-//swith case
+//swith statement
 
+// const day = 'saturday';
+// switch (day) {
+//   case 'monday':
+//     console.log('Plan course structure');
+//     console.log('goto coding meet up');
+//     break;
+//   case 'tuesday':
+//     console.log('prepare theory video');
+//     break;
+//   case 'wednesday':
+//   case 'thursday':
+//     console.log('write code example');
+//     break;
+//   case 'friday':
+//     console.log('record video');
+//     break;
+//   case 'saturday':
+//   case 'sunday':
+//     console.log('enjoy weekend');
+//     break;
+//   default:
+//     console.log('not a valid day');
+// }
+const day = 'friday';
+if (day === 'monday') {
+  console.log('plan course structure');
+  console.log('goto coding meetup');
+} else if (day === 'tuesday') {
+  console.log('prepare theory video');
+} else if (day === 'wednesday' && 'thursday') {
+  console.log('write code example');
+} else if (day === 'friday') {
+  console.log('record video');
+} else if (day === 'saturday' && 'sunday') {
+  console.log('enjoy weekend');
+} else {
+  console.log('not a valid day');
+}
