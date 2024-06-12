@@ -1,1 +1,10 @@
-console.log('Hello World!');
+let js = 'Amazing';
+console.log(20 + 42 + 30 - 12);
+console.log('Emon');
+console.log(23);
+let name = "emon";
+console.log(name);
+console.log(name);
+console.log(name);
+let myFirstJob = 'freelancer';
+console.log(myFirstJob);
