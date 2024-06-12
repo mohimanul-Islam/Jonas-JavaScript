@@ -184,3 +184,47 @@ console.log(myFirstJob);
 
 // if(favorite !== 23)console.log('Why not 23?');
 
+// const hasLicence = true;
+// const hasGoodvision = true;
+// console.log(hasLicence && hasGoodvision);
+// console.log(hasLicence || hasGoodvision);
+// console.log(!hasLicence);
+
+// const tired = true;
+
+// if(hasLicence && hasGoodvision&&tired){
+//     console.log("You can drive");
+// }else{
+//     console.log("Someone else drive");
+// }
+
+//chalange 3
+
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
+// console.log(scoreDolphins, scoreKoalas);
+// if (scoreDolphins > scoreKoalas) {
+//   console.log('Dolphins win the trophy');
+// } else if (scoreDolphins < scoreKoalas) {
+//   console.log('Koalas win the trophy');
+// } else if (scoreDolphins === scoreKoalas)
+// {
+//   console.log('Both win the trophy');
+// }
+//bonus1
+// const scoreDolphins = (97 + 112 + 101) / 3;
+// const scoreKoalas = (109 + 95 + 86) / 3;
+// console.log(scoreDolphins, scoreKoalas);
+// if (scoreDolphins > scoreKoalas && scoreDolphins>=100) {
+//   console.log('Dolphins win the trophy');
+// } else if (scoreDolphins < scoreKoalas && scoreKoalas>=100) {
+//   console.log('Koalas win the trophy');
+// } else if (scoreDolphins === scoreKoalas && scoreDolphins>=100 && scoreKoalas>=100)
+// {
+//   console.log('Both win the trophy');
+// }else{
+//     console.log("no one wins the trofhy");
+// }
+
+//swith case
+
