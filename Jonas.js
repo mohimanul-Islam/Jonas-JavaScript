@@ -251,18 +251,48 @@ console.log(myFirstJob);
 //   default:
 //     console.log('not a valid day');
 // }
-const day = 'friday';
-if (day === 'monday') {
-  console.log('plan course structure');
-  console.log('goto coding meetup');
-} else if (day === 'tuesday') {
-  console.log('prepare theory video');
-} else if (day === 'wednesday' && 'thursday') {
-  console.log('write code example');
-} else if (day === 'friday') {
-  console.log('record video');
-} else if (day === 'saturday' && 'sunday') {
-  console.log('enjoy weekend');
-} else {
-  console.log('not a valid day');
-}
+// const day = 'sunday';
+// if (day === 'monday') {
+//   console.log('plan course structure');
+//   console.log('goto coding meetup');
+// } else if (day === 'tuesday') {
+//   console.log('prepare theory video');
+// } else if (day === 'wednesday' || day === 'thursday') {
+//   console.log('write code example');
+// } else if (day === 'friday') {
+//   console.log('record video');
+// } else if (day === 'saturday' || day === 'sunday') {
+//   console.log('enjoy weekend');
+// } else {
+//   console.log('not a valid day');
+// }
+// const me = 'Emon'
+// console.log(`I'm ${2025-2000} years old ${me}`);
+
+// const age = 24;
+// age >= 18 ? console.log('You are adult') : console.log('You are too young');
+
+// const drink = age >= 18 ? 'juice' : 'water';
+// console.log(drink);
+// let drink2;
+// if (age >= 18) {
+//   drink2 = 'juice';
+// } else {
+//   drink2 = 'water';
+// }
+// console.log(drink2);
+
+// console.log(`I would like to drink ${age >= 18 ? 'juice' : 'water'}`);
+
+// const bill = 275;
+// const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+// console.log(
+//   `The bill was ${bill}, the tip was ${tip}, and the total value is ${
+//     bill + tip
+//   }`
+// );
+
+//practice
+const age= 24;
+const drink = age >=18 ? 'wine':'water';
+console.log(drink);
