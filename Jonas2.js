@@ -44,9 +44,23 @@
 // const age = calcage(2000);
 // console.log(age);
 
-const retayermentyear = birthday => {
-  const age = 2035 - birthday;
-  const retirement = 65 - age;
-  return retirement;
-};
-console.log(retayermentyear(1991));
+// const retayermentyear = birthday => {
+//   const age = 2035 - birthday;
+//   const retirement = 65 - age;
+//   return retirement;
+// };
+// console.log(retayermentyear(1991));
+
+// const retayermentyear = birthyear => {
+//   const age = 2035 - birthyear;
+//   const retirement = 65 - age;
+//   return retirement;
+// };
+// console.log(retayermentyear(1999));
+
+//practice
+
+function log(){
+    console.log("my name is Emon");
+}
+log();
