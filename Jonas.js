@@ -293,6 +293,29 @@ console.log(myFirstJob);
 // );
 
 //practice
-const age= 24;
-const drink = age >=18 ? 'wine':'water';
-console.log(drink);
+// const age= 24;
+// const drink = age >=18 ? 'wine':'water';
+// console.log(drink);
+
+// let drink2;
+// if(age>=18){
+//     drink2="Wine";
+// }else{
+//     drink2="water"
+// }
+// console.log(drink2);
+
+// const age1 = 15;
+// const drink3 = age1 >= 18? 'wine':'water';
+// console.log(drink3);
+
+// console.log(`I'd like to drink ${age1 >= 18? 'wine':'water'}`);
+
+//chalange 4
+
+// const bill = 275;
+// const tip = bill > 50 && bill < 300 ? bill * 0.15 : bill * 0.2;
+// console.log(
+//   `The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`
+// );
+
