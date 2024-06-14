@@ -208,3 +208,7 @@
 // }
 // console.log (agecalc(2004));
 
+const emon = function (age) {
+  return 2039 - age;
+};
+console.log(emon(2000));
