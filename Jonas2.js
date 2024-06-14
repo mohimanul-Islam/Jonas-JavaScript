@@ -235,3 +235,12 @@
 
 // const age = Number('25');
 
+// const cutPeaces = function(fruit){
+//     return fruit*4;
+// }
+// const frootProcessor = function(apples, oranges){
+//     const applePeaces = cutPeaces(apples);
+//     const orangepices = cutPeaces(oranges);
+//     return `Juice with ${applePeaces} pices of apple and ${orangepices} pices of oranges.`;
+// }
+// console.log(frootProcessor(2,3));
