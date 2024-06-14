@@ -181,3 +181,30 @@
 
 // const ages = calcAge(years);
 
+//function practice
+
+// function emon() {
+//   console.log('Hello world!');
+// }
+// emon();
+// function frootProcessor(apples, oranges) {
+//   const juice = `juice with ${apples} apples and ${oranges} orenges`;
+//   return juice;
+// }
+// const applejuice = frootProcessor(3, 0);
+// console.log(applejuice);
+// const appleanoranges = frootProcessor(4, 2);
+// console.log(appleanoranges);
+
+// function calcAge(birthYear){
+//     const age = 2038-birthYear;
+//     return age;
+// }
+// const year = calcAge(2000);
+// console.log(year);
+
+// function agecalc(birthYear){
+//     return 2038-birthYear;
+// }
+// console.log (agecalc(2004));
+
