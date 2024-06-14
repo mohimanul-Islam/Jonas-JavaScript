@@ -92,16 +92,16 @@
 //     const retirement = 65-age;
 //     return `${name} will retire in ${retirement} years.`;
 // }
-// console.log(yearUntilRetirement(2000, 'Emon')); 
-// console.log(yearUntilRetirement(1995, 'Johnny')); 
+// console.log(yearUntilRetirement(2000, 'Emon'));
+// console.log(yearUntilRetirement(1995, 'Johnny'));
 
 // const yearofretirement = (birthYear,name) =>{
 //     const age = 2038-birthYear;
 //     const retirement = 65-age;
-//     return `${name} will retire in ${retirement} years`; 
+//     return `${name} will retire in ${retirement} years`;
 // }
-// console.log(yearofretirement(2000, 'Emon')); 
-// console.log(yearofretirement(1982, 'Jonas')); 
+// console.log(yearofretirement(2000, 'Emon'));
+// console.log(yearofretirement(1982, 'Jonas'));
 
 // const yearUntilRetirement = (birthYear,name) => {
 //     const age = 2039-birthYear;
@@ -110,3 +110,50 @@
 // }
 // console.log(yearUntilRetirement(2000, 'Emon'));
 
+// function cutfrootpices(froot) {
+//   return froot * 4;
+// }
+
+// function fruitProcessor(apples, oranges) {
+//   const applepices = cutfrootpices(apples);
+//   const orangepices = cutfrootpices(oranges);
+//   const juice = `juice with ${applepices} pices of apples and ${orangepices} pices of orenges. `;
+//   return juice;
+// }
+// console.log(fruitProcessor(3, 4));
+
+// function cutfruitpices(fruit) {
+//   return fruit * 4;
+// }
+// function fruitProcessor(apples, oranges) {
+//   const applepices = cutfruitpices(apples);
+//   const orangepices = cutfruitpices(oranges);
+//   const juice = `jice with ${applepices} pices of apple and ${orangepices} pices of orange`;
+//   return juice;
+// }
+// console.log(fruitProcessor(2, 3));
+//chalange 1
+// const calcAverage = (a, b, c) => (a + b + c) / 3;
+// console.log(calcAverage(2, 9, 7));
+
+// const scoreDolphins = calcAverage(44, 23, 71);
+// const scoreKoalas = calcAverage(23, 34, 27);
+
+// console.log(scoreDolphins, scoreKoalas);
+
+// const checkWinner = function(avgdolphins, avgKoalas) {
+//     if(avgdolphins>=2*avgKoalas){
+//         console.log(`Dolphins win the troffy (${avgdolphins} vs ${avgKoalas})`);
+//     }else if(avgKoalas>=2*avgdolphins){
+//         console.log(`Koalas win the troffy ${avgKoalas} vs ${avgolphins}`);
+//     }else{
+//         console.log('No team wins...');
+//     }
+// }
+// checkWinner(scoreDolphins, scoreKoalas);
+// checkWinner(580, 100);
+
+//array
+
+const age = [23,25,42];
+console.log(age);
