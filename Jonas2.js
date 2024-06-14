@@ -103,3 +103,10 @@
 // console.log(yearofretirement(2000, 'Emon')); 
 // console.log(yearofretirement(1982, 'Jonas')); 
 
+// const yearUntilRetirement = (birthYear,name) => {
+//     const age = 2039-birthYear;
+//     const retirement = 65-age;
+//     return `${name} will retire in ${retirement} year`;
+// }
+// console.log(yearUntilRetirement(2000, 'Emon'));
+
