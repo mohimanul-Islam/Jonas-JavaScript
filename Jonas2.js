@@ -254,9 +254,19 @@
 // }
 // console.log(frootProcessor(3,5));
 
-const yearUntilRetirement = function(birthYear, name){
-    const age = 2038-birthYear;
-    const retirement = 65-age;
-    return `${name} will retire in ${retirement} year!`
-}
-console.log(yearUntilRetirement(2000, 'Emon'));
+// const calcAge = function(birthYear){
+//     return 2039-birthYear;
+// }
+// const yearofretirement = function(birthYear, name){
+//     const age = calcAge(birthYear);
+//     const retirement = 65-age;
+//     if (retirement>0) {
+//         console.log(`${name} will retire in ${retirement} year.`);
+//         return retirement;
+//     }else{
+//         console.log(`${name} is already retired`);
+//         return -1;
+//     }
+// }
+// console.log(yearofretirement(1950,'Jonas'));
+
