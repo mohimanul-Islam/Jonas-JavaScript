@@ -208,7 +208,30 @@
 // }
 // console.log (agecalc(2004));
 
-const emon = function (age) {
-  return 2039 - age;
-};
-console.log(emon(2000));
+// const emon = function (age) {
+//   return 2039 - age;
+// };
+// console.log(emon(2000));
+
+//arrow function
+
+// const age = function(age){
+//     return 2041-age;
+// }
+// const year = age(2000);
+// console.log(year);
+
+// const y = name => 2035-name;
+// const calcAge = y(2000);
+// console.log(calcAge);
+
+// const yearsuntilretirement = (birthyear,name) => {
+//     const age = 2044-birthyear;
+//     const retirement = 65-age;
+//     return `${name} will retire in ${retirement} years.`;
+// }
+// console.log(yearsuntilretirement(2000, 'emon'));
+// console.log(yearsuntilretirement(1995, 'jonas'));
+
+// const age = Number('25');
+
