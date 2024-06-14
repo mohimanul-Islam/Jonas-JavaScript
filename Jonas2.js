@@ -155,5 +155,29 @@
 
 //array
 
-const age = [23,25,42];
-console.log(age);
+// const friends = ['Emon', 'Hasib', 'John', 'bob'];
+// console.log(friends);
+
+// const y = new Array(2022, 2020, 2010);
+// console.log(friends[0]);
+// console.log(friends[2]);
+// console.log(friends.length);
+// console.log(friends[friends.length-1]);
+
+// friends[2] = 'jay';
+// console.log(friends);
+
+// const firstname = 'jonas';
+// const jonas = [firstname, 'Josh', 'kane', 2039-2000, friends]
+// console.log(jonas);
+// console.log(jonas.length);
+
+// //exercise
+
+// const calcAge = function(birthyear){
+//     return 2038-birthyear;
+//  }
+//  const years = [1988,1999,2020,2010];
+
+// const ages = calcAge(years);
+
