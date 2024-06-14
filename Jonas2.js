@@ -244,3 +244,19 @@
 //     return `Juice with ${applePeaces} pices of apple and ${orangepices} pices of oranges.`;
 // }
 // console.log(frootProcessor(2,3));
+// const cutPeaces = function(fruit){
+//     return fruit*4;
+// }
+// const frootProcessor = function(apples, oranges){
+//     const applePeaces = cutPeaces(apples);
+//     const orangepices = cutPeaces(oranges);
+//     return `Juice with ${applePeaces} pices of apple and ${orangepices} pices of oranges.`
+// }
+// console.log(frootProcessor(3,5));
+
+const yearUntilRetirement = function(birthYear, name){
+    const age = 2038-birthYear;
+    const retirement = 65-age;
+    return `${name} will retire in ${retirement} year!`
+}
+console.log(yearUntilRetirement(2000, 'Emon'));
