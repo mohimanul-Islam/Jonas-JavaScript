@@ -316,3 +316,12 @@ console.log(friends.length);
 console.log(friends[friends.length-1]);
 friends[2] = 'Sakib';
 console.log(friends);
+friends.push('Jay')
+console.log(friends);
+friends.pop()
+console.log(friends);
+friends.unshift('Abid');
+console.log(friends);
+friends.shift('Abid');
+console.log(friends);
+console.log(friends[friends.length-1]);
