@@ -289,3 +289,30 @@
 // const froot = frootProcessor(2,4);
 // console.log(froot);
 
+// const age = birthyear => 2040-birthyear;
+// console.log(age(2000));
+
+// const year = birthyer =>{
+//     return 2045-birthyer;
+// }
+// console.log(year(2000));
+
+// const averageScores = (a, b, c) => (a+b+c)/3;
+// console.log(averageScores(2, 5, 6));
+
+// const dolphinsScore = averageScores(3, 5, 8);
+// const koalasScore = averageScores(6, 9, 4);
+// console.log(dolphinsScore, koalasScore);
+
+//Array
+
+const friends = ['Emon', 'Rafi', 'Jonas'];
+console.log(friends);
+const year = new Array(2000, 1998, 1999, 1995);
+console.log(year);
+console.log(friends[2]);
+console.log(friends[0]);
+console.log(friends.length);
+console.log(friends[friends.length-1]);
+friends[2] = 'Sakib';
+console.log(friends);
