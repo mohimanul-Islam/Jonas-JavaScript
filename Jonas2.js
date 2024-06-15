@@ -277,3 +277,15 @@
 // }
 // const age = calcAge(2000, 'Emon');
 
+// const cutPeaces = function(froot){
+//     return 4*froot;
+// }
+// const frootProcessor = function(apples, oranges){
+//     const applePeaces = cutPeaces(apples);
+//     const orangepices = cutPeaces(oranges);
+//     const juice = `Juice with ${applePeaces} pice of apple an ${orangepices} pice of orange.`;
+//     return juice;
+// }
+// const froot = frootProcessor(2,4);
+// console.log(froot);
+
