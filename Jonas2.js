@@ -270,3 +270,10 @@
 // }
 // console.log(yearofretirement(1950,'Jonas'));
 
+// const calcAge = function(birthYear, name){
+//     const age = 2038-birthYear;
+//     console.log(`${name} is ${age} years old!`);
+//     return age;
+// }
+// const age = calcAge(2000, 'Emon');
+
