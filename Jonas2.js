@@ -306,22 +306,41 @@
 
 //Array
 
-const friends = ['Emon', 'Rafi', 'Jonas'];
-console.log(friends);
-const year = new Array(2000, 1998, 1999, 1995);
-console.log(year);
-console.log(friends[2]);
-console.log(friends[0]);
-console.log(friends.length);
-console.log(friends[friends.length-1]);
-friends[2] = 'Sakib';
-console.log(friends);
-friends.push('Jay')
-console.log(friends);
-friends.pop()
-console.log(friends);
-friends.unshift('Abid');
-console.log(friends);
-friends.shift('Abid');
-console.log(friends);
-console.log(friends[friends.length-1]);
+// const friends = ['Emon', 'Rafi', 'Jonas'];
+// console.log(friends);
+// const year = new Array(2000, 1998, 1999, 1995);
+// console.log(year);
+// console.log(friends[2]);
+// console.log(friends[0]);
+// console.log(friends.length);
+// console.log(friends[friends.length-1]);
+// friends[2] = 'Sakib';
+// console.log(friends);
+// friends.push('Jay')
+// console.log(friends);
+// friends.pop()
+// console.log(friends);
+// friends.unshift('Abid');
+// console.log(friends);
+// friends.shift('Abid');
+// console.log(friends);
+// console.log(friends[friends.length-1]);
+// function calcAge(year) {
+//     return 2040-year;
+// }
+// console.log(calcAge(2000));
+
+// const logger = function(birthyear){
+//     return 2035-birthyear;
+// }
+// console.log(logger(2004));
+
+// const age = birthyear=>2038-birthyear;
+// console.log(age(2003));
+
+function frootProcessor(apples, oranges){
+    const juice = `Juice with ${apples} apples and ${oranges} oranges`;
+    return juice;
+}
+const froot = frootProcessor(3,1)
+console.log(froot);
