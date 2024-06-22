@@ -338,9 +338,20 @@
 // const age = birthyear=>2038-birthyear;
 // console.log(age(2003));
 
-function frootProcessor(apples, oranges){
-    const juice = `Juice with ${apples} apples and ${oranges} oranges`;
-    return juice;
-}
-const froot = frootProcessor(3,1)
-console.log(froot);
+// function frootProcessor(apples, oranges){
+//     const juice = `Juice with ${apples} apples and ${oranges} oranges`;
+//     return juice;
+// }
+// const froot = frootProcessor(3,1)
+// console.log(froot);
+
+// function froot(age){
+//     return 2065-age;
+// }
+// console.log(froot(2000));
+
+const friends = ['Emon', 'Jonas', 'Ket', 'lili'];
+console.log(friends.indexOf('lili'));
+console.log(friends[3]);
+
+console.log('hello world');
