@@ -354,4 +354,4 @@ const friends = ['Emon', 'Jonas', 'Ket', 'lili'];
 console.log(friends.indexOf('lili'));
 console.log(friends[3]);
 
-console.log('hello world');
+console.log('hello world1');
