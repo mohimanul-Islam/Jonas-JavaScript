@@ -348,11 +348,11 @@
 // function froot(age){
 //     return 2065-age;
 // }
-// console.log(froot(2000));
+// // console.log(froot(2000));
 
-const friends = ['Emon', 'Jonas', 'Ket', 'lili'];
-console.log(friends.indexOf('lili'));
-console.log(friends[3]);
+// const friends = ['Emon', 'Jonas', 'Ket', 'lili'];
+// console.log(friends.indexOf('lili'));
+// console.log(friends[3]);
 
-console.log('my name is Emon, today is friday');
-console.log('My name is Emon');
+// console.log('my name is Emon, today is friday');
+// console.log('My name is Emon');
