@@ -1,6 +1,7 @@
-let js = 'Boaring';
+let js = 'Awesome';
 if (js === 'Awesome') {
-  console.log('js is fun');
+  alert('js is fun');
 } else {
-  console.log('js is boaring');
+  alert('js is boaring');
 }
+console.log('Hello World');
